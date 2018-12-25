@@ -7,8 +7,8 @@ pub fn index() -> io::Result<NamedFile> {
 }
 
 #[get("/share")]
-pub fn signle_page_app() -> io::Result<NamedFile> {
-    NamedFile::open("static/web/index.html")
+pub fn single_page_app() -> io::Result<NamedFile> {
+    NamedFile::open("static/build/index.html")
 }
 
 

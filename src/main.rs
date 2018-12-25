@@ -17,7 +17,7 @@ fn rocket() -> rocket::Rocket {
             routes![
                 static_files::file,
                 get::index,
-                get::signle_page_app,
+                get::single_page_app,
             ],
         )
         .register(catchers![errors::not_found])
