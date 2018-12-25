@@ -1,0 +1,5 @@
+# You don't need result file just use cargo run
+target/
+
+# you can download easily node_modules with npm install
+node_modules

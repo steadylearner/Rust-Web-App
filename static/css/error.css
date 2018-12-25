@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+}
+
+.error {
+
+    /* layout */
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 100%;
+    height: 100vh;
+
+    /* style */
+    font-size: 1.2rem;
+    box-shadow: inset 0 0 5px 5px black;
+}
+
+
+
+

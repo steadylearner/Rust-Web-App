@@ -1,0 +1,17 @@
+[package]
+name = 'rust_web_app_2_undefined_path'
+version = "0.1.0"
+authors = ["$www.steadylearner.com"]
+edition = "2018"
+
+[dependencies]
+rocket = "0.4.0"
+tera = "0.11.20"
+
+[dependencies.rocket_contrib]
+version = "0.4.0"
+default-features = false
+features = ["tera_templates"]
+
+# template and markdown
+tera = "0.11.20"

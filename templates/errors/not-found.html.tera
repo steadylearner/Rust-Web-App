@@ -1,0 +1,18 @@
+{% extends "main" %}
+
+{% block title %} [404] Not Found {% endblock title %}
+
+{% block css %}
+<link rel="stylesheet" href="/static/css/error.css">
+{% endblock css %}
+
+{% block main %}
+  <section class="error">
+    <h1>No content for {{ path }} yet.</h1>
+    <h2>
+      <a href="/" alt="This is link to home [/] page.">
+        Please, click this to back to the home page.
+      </a>
+    </h2>
+  </section>
+{% endblock main %}
