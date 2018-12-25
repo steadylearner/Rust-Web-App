@@ -1,0 +1,19 @@
+{# [title, css, main] #}
+<!doctype html>
+<html lang=en>
+    <head>
+        <meta charset=UTF-8>
+        <meta name=viewport content="width=device-width,initial-scale=1">
+        <meta http-equiv=X-UA-Compatible content="ie=edge">
+        <meta name=author content=steadylearner>
+        <title>Rust Rocket for beginners by steadylearner</title>
+        <link rel="stylesheet" href="/static/main.css">
+        <title>{% block title %} Steadylearner Website {% endblock title %}</title>
+        {% block css %}<link rel="stylesheet" href="/static/css/custom.css">{% endblock css %}
+    </head>
+    <body>
+    <main role="main">
+        {% block main %}{% endblock main %}
+    </main>
+    </body>
+</html>
