@@ -1,15 +1,15 @@
 [package]
 name = 'rust_web_app_2_undefined_path'
 version = "0.1.0"
-authors = ["$www.steadylearner.com"]
+authors = ["$www.dylearner.com"]
 edition = "2018"
 
 [dependencies]
-rocket = "0.4.0"
+rocket = "0.4.4"
 tera = "0.11.20"
 
 [dependencies.rocket_contrib]
-version = "0.4.0"
+version = "0.4.4"
 default-features = false
 features = ["tera_templates"]
 
